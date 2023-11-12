@@ -1,0 +1,7 @@
+20231107 14:37:39 INFO  [main] steps.FirebaseStepDef FirebaseStepDef.java55 - https://qa-tekarch.firebaseapp.comis entered
+20231107 14:37:39 INFO  [main] base.BasePage BasePage.java57 - pass:username field  element cleared
+20231107 14:37:39 INFO  [main] base.BasePage BasePage.java47 - Pass:username field is entered to the username filed
+20231107 14:37:40 INFO  [main] base.BasePage BasePage.java57 - pass:password field  element cleared
+20231107 14:37:40 INFO  [main] base.BasePage BasePage.java47 - Pass:password field is entered to the username filed
+20231107 14:37:40 INFO  [main] base.BasePage BasePage.java67 - pass:login button element clicked
+20231107 14:38:10 INFO  [main] steps.FirebaseStepDef FirebaseStepDef.java60 - current browser closed

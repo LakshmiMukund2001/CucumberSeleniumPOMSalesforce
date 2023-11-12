@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-10T20:53:12 CST" name="Suite" finished-at="2023-11-10T20:53:36 CST" duration-ms="24062">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runners.SalesforceLoginRunner@534a5a98]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-11-10T20:53:12 CST" name="chromeTest" finished-at="2023-11-10T20:53:36 CST" duration-ms="24062">
+      <class name="com.automation.runners.SalesforceLoginRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.automation.runners.SalesforceLoginRunner@534a5a98]" started-at="2023-11-10T20:53:12 CST" name="setUpClass" finished-at="2023-11-10T20:53:13 CST" duration-ms="598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5e3db14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runners.SalesforceLoginRunner@534a5a98]" started-at="2023-11-10T20:53:13 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-10T20:53:15 CST" duration-ms="2707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid user and empty password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into SalesForce application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runners.SalesforceLoginRunner@534a5a98]" started-at="2023-11-10T20:53:15 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-10T20:53:20 CST" duration-ms="4878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid user and valid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into SalesForce application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runners.SalesforceLoginRunner@534a5a98]" started-at="2023-11-10T20:53:20 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-10T20:53:32 CST" duration-ms="11444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test the remember username check"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into SalesForce application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runners.SalesforceLoginRunner@534a5a98]" started-at="2023-11-10T20:53:32 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-10T20:53:34 CST" duration-ms="2259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Forgot password feature"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into SalesForce application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runners.SalesforceLoginRunner@534a5a98]" started-at="2023-11-10T20:53:34 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-10T20:53:36 CST" duration-ms="2126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid user and invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into SalesForce application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.automation.runners.SalesforceLoginRunner@534a5a98]" started-at="2023-11-10T20:53:36 CST" name="tearDownClass" finished-at="2023-11-10T20:53:36 CST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.automation.runners.SalesforceLoginRunner -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
